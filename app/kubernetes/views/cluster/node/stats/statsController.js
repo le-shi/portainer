@@ -101,7 +101,7 @@ class KubernetesNodeStatsController {
   async onInit() {
     this.state = {
       autoRefresh: false,
-      refreshRate: '5',
+      refreshRate: '30',
       viewReady: false,
       transition: {
         nodeName: this.$transition$.params().name,
